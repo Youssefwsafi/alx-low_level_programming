@@ -2,8 +2,10 @@
 
 /**
  * main - Entry point
- * description : this is print function with puts
- * return : always 0 (Success)
+ *
+ * Description : a C program that  prints with puts function
+ *
+ * return : Always 0 (Success)
 */
 
 
