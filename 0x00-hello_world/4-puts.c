@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * description : this is print function with puts
- * return : always 0
+ * return : always 0 (Success)
 */
 
 
