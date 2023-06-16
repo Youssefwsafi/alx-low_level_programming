@@ -13,10 +13,11 @@ int main(void)
 		putchar(digit);
 		digit++;
 
-		if (digit == 57)
+		if (digit == 58)
 			digit += 39;
 		digit++;
 	}
+
 	putchar('\n');
 
 	return (0);
