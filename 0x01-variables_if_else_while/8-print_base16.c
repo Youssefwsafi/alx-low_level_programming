@@ -13,7 +13,7 @@ int main(void)
 		putchar(digit);
 		digit++;
 
-		if (digit == 57)
+		if (digit == 58)
 			digit += 40;
 	}
 
