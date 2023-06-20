@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - print alphabet using alphabet prototype
+ *print_alphabet - Prints alphabet in lowercase.
  *
- * Return: always 0 (success)
- *
-*/
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ **/
 
 void print_alphabet(void)
 {
-	int i = 97;
+	int ch;
 
-	while (i <= 'z')
-	{
-		_putchar(i++);
-	}
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
 	putchar('\n');
-	return (0);
+
 }
