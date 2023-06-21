@@ -8,16 +8,22 @@
 
 int main(void)
 {
-	int fib[50];
+	int cal;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	fib[0] = 1;
-	fib[1] = 2;
-
-	printf("%d\n%d\n", fib[0], fib[1]);
-	for (int i = 2; i < 50; i++)
+	for (cal = 0; cal < 50; cal++)
 	{
-		fib[i] = fib[i - 1] + fib[i - 2];
-		printf("%d, ", fib[i]);
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
+
+		if (cal == 49)
+			printf("\n");
+		else
+			printf(", ");
+
 	}
 	return (0);
 }
