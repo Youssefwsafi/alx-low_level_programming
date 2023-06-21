@@ -31,11 +31,12 @@ void print_times_table(int n)
 				_putchar((com / 100) + 48);
 				_putchar((com / 10) % 10 + 48);
 
-				}else if (com <= 99 && com >= 10)
+				} else if (com <= 99 && com >= 10)
 				_putchar((com / 10) + 48);
 			_putchar((com % 10) + 48);
 			}
+
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
