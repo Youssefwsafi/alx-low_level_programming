@@ -4,8 +4,7 @@
  ** print_numbers - function that prints
  * digits to 9
  *
- *
- * Return: void.
+ *.
  **/
 void print_numbers(void)
 {
@@ -19,5 +18,4 @@ void print_numbers(void)
 	}
 
 	_putchar('\n');
-	return;
 }
