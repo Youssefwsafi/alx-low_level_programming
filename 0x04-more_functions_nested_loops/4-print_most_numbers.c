@@ -6,7 +6,7 @@
  */
 void print_most_numbers(void)
 {
-	int digit = 0;
+	int digit;
 
 	while (digit <= 9)
 		{
