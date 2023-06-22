@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- ** _isupper - function that check
+ ** _isdigit - function that check
  * for a digit
  *
  * @c: takes the input
