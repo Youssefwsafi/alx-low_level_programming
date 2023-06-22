@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - a function will print from
+ * print_most_numbers - a function that print from
  * 0 to 9 except two digit
  *
  */
