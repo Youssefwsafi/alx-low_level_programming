@@ -16,14 +16,13 @@ int str_len(char *s)
 	return (i);
 }
 
-
-
-
-/*
+/**
  * _atoi - converts a string to int
- * @s: the string to convert
+ *
+ * @s: string to convert
+ *
  * Return: return the value of the string converted
-*/
+ */
 
 int _atoi(char *s)
 {
