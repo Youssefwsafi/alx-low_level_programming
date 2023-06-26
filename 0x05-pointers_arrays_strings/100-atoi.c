@@ -14,7 +14,7 @@ int _atoi(char *s)
 	int len;
 
 	i = 0;
-	len = str_len(s);
+	len = _strlen(s);
 	sign = 1;
 	result = 0;
 	while (s[i] < '0' || s[i] > '9')
