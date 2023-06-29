@@ -6,7 +6,7 @@
  * @src: string's source
  * @n: the number of bytes
  * Return: dest
-**/
+*/
 
 char *_strncpy(char *dest, char *src, int n)
 {
