@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * rev_array - reverse array
+ * rev_string - reverse array
  * @n: integer params
  * Return: 0
  */
