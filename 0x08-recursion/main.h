@@ -8,3 +8,4 @@ int is_prime_number(int n);
 int _putchar(char c);
 int _sqrt(int n, int val);
 int if_is_it_prime(int n, int i);
+int is_pali_helper(char *s, int i, int j);
