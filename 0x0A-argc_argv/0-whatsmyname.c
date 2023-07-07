@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
-* main - program that print its name
+* main - Entry point
+* Description: prints the program name
 * @argc: arguments count
 * @argv: array arguments
-* return: always 0.
+* Return: always 0.
 */
 
 int main(int argc, char *argv[])
