@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int j;
+	int res;
 
 	if (argc != 3)
 	{
@@ -21,7 +22,8 @@ int main(int argc, char *argv[])
 	}
 	i = _atoi(argv[1]);
 	j = _atoi(argv[2]);
-	printf("%d\n", i * j);
+	res = i * j;
+	printf("%d\n", res);
 	return (0);
 }
 
