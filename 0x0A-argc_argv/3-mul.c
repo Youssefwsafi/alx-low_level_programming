@@ -27,8 +27,6 @@ int main(int argc, char *argv[])
 	return (0);
 }
 
-#include "main.h"
-
 /**
  * str_len - calculate the length of a string
  * @s: the string
