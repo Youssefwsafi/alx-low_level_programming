@@ -1,18 +1,15 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
 * main - program that print its name
 * @argc: arguments count
-* @argv: arguments vector
+* @argv: array arguments
+* return: always 0.
 */
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s", argv[i]);
-	}
-	printf("\n");
+	printf("%s\n", argv[argc - 1]);
+	return (0);
 }
