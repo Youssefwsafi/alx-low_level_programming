@@ -8,12 +8,16 @@
  *
  * @s: value of the string
  *
- * Return: to strlen
+ * Return: to size
  **/
 
 int _strlen(char *s)
 {
-	return (strlen(s));
+	int size = 0;
+
+	for (; s[size] != '\0'; size++)
+
+	return (size);
 }
 
 /**
