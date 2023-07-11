@@ -11,26 +11,50 @@
 
 char *_strdup(char *str)
 {
-	int i = 0, size = 0;
-	char *m;
+	char *n_str;
+	int i;
 
 	if (str == NULL)
 		return (NULL);
-
-	for (; str[size] != '\0'; size++)
-
-	m = malloc(size * sizeof(*str) + 1);
-
-	if (m == 0)
-	{
+	i = 0;
+	n_str = _create_array(_strlen(str) + 1);
+	if (!n_str)
 		return (NULL);
-	}
-	else
+	while (i <= _strlen(str))
 	{
-
-		for (; i < size; i++)
-
-			m[i] = str[i];
+		n_str[i] = str[i];
+		i++;
 	}
-	return (m);
+	return (new_str);
+}
+
+/**
+* create_array - function that create an array of chars
+* and initializes it with a specific char.
+* @size: size of arrayy
+* @c: char to initialize
+* Return: pointer n
+**/
+
+char *create_array(unsigned int size, char c)
+{
+	char *n = malloc(size);
+		if (size == 0 || n == 0)
+		return (NULL);
+	while (size--)
+	n[size] = c;
+
+	return (n);
+}
+
+int _strlen(char *s)
+{
+	int i;
+
+	i = 0;
+	while (s[i])
+	{
+		i++;
+	}
+	return (i);
 }
